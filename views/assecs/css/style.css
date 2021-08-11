@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.body__todoList {
+  width: 500px;
+  margin: 20px auto;
+  background-color: #0e7ad3;
+  padding: 10px 15px;
+  border: solid 1.5px black;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.body__todoList .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.body__todoList .form .input {
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: red;
+  background-color: #c8e9df;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  width: 300px;
+}
+
+.body__todoList .form .button {
+  padding: 5px 10px;
+  margin: 0 10px;
+  background: #fb1a1a;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.body__todoList .todoList {
+  width: 100%;
+}
+
+.body__todoList .todoList .todoList__item {
+  width: 97%;
+  background: #3aec3a;
+  border-radius: 5px;
+  border: solid 1px black;
+  margin: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+  height: 27px;
+}
+
+.body__todoList .todoList .todoList__item p {
+  width: 60%;
+  padding: 5px;
+}
+
+.body__todoList .todoList .todoList__item button {
+  width: 20%;
+  padding: 5px 2px;
+  background-color: red;
+  color: white;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.body__todoList .todoList .todoList__item time {
+  color: #ff00aa;
+  padding: 3px;
+  padding-right: 5px;
+}
+
+.body__todoList .todoList .todoList__item .underline {
+  text-decoration: underline;
+}
+
+.body__todoList .todoList .todo {
+  text-decoration: line-through;
+}
+
+.body__todoList .todoList .opos {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */
